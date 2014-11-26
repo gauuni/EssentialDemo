@@ -12,11 +12,9 @@ EssentialLib include
 
 
 ==============================================================================
-<strong>Attention</strong>:
+<strong><i>Attention</i></strong>:
 <br>
 <ol>
-<i>
-<li><Please add comment & description to explain methods as clear as possible to other read</li>
-<li>Please add summary & description when commit</li>
-</i>
+<li><i>Please add comment & description to explain methods as clear as possible to other read</i></li>
+<li><i>Please add summary & description when commit</i></li>
 </ol>
