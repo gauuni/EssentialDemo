@@ -15,6 +15,8 @@ EssentialLib include
 <strong>Attention</strong>:
 <br>
 <ol>
-<li>Please add comment & description to explain methods as clear as possible to other read</li>
+<i>
+<li><Please add comment & description to explain methods as clear as possible to other read</li>
 <li>Please add summary & description when commit</li>
+</i>
 </ol>
