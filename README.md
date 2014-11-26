@@ -19,7 +19,7 @@ In ViewController
 #import "EssentialLib/file.h"
 ```
 ==============================================================================
-<h2><i>Attention</i></h2>:
+<h2><i>Attention</i></h2>
 <br>
 <ol>
 <li><i>Please add comment & description to explain methods as clear as possible to other read</i></li>
