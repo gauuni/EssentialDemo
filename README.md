@@ -1,6 +1,7 @@
 EssentialDemo
 ==============================================================================
-/-----------------------------------------------------------------------------/
+
+
 This project shows how to use method that EssentialLib contains.
 EssentialLib include
 <ol>
@@ -9,8 +10,9 @@ EssentialLib include
 <li>Please continue</li>
 </ol>
 
+
+==============================================================================
 <strong>Attention</strong>:
-</br>
+<br>
 Please add comment & description as clear as possible to other read
 
-/-----------------------------------------------------------------------------/
