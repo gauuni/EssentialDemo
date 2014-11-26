@@ -11,13 +11,17 @@ EssentialLib include
 
 ==============================================================================
 <h2>Usage</h2>
-Run UniversalEssentialLib target
-Go to EssentialLib -> build -> lib.a -> copy & import to new project
-Find "Build Settings/Header Search Paths" add "$SOURCE_ROOT/"
-In ViewController
+<ol>
+<li>Run UniversalEssentialLib target</li>
+<li>Go to EssentialLib -> build -> lib.a -> copy & import to new project</li>
+<li>Find "Build Settings/Header Search Paths" add "$SOURCE_ROOT/"</li>
+<li>In ViewController</li>
+</ol>
+
 ```
 #import "EssentialLib/file.h"
 ```
+
 ==============================================================================
 <h2><i>Attention</i></h2>
 <br>
