@@ -14,10 +14,23 @@
 		01D1E8331A24902D005284BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1E8321A24902D005284BE /* Images.xcassets */; };
 		01D1E8361A24902E005284BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D1E8341A24902E005284BE /* LaunchScreen.xib */; };
 		01D1E8421A249030005284BE /* EssentialDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E8411A249030005284BE /* EssentialDemoTests.m */; };
-		01D1E8571A2490BC005284BE /* libEssentialLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D1E8521A24906F005284BE /* libEssentialLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0124FC761A256F830090F399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0124FC701A256F820090F399 /* EssentialLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 012A02661A2474F10054CFA1;
+			remoteInfo = EssentialLib;
+		};
+		0124FC781A256F830090F399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0124FC701A256F820090F399 /* EssentialLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 012A02711A2474F20054CFA1;
+			remoteInfo = EssentialLibTests;
+		};
 		01D1E83C1A249030005284BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01D1E81A1A24902D005284BE /* Project object */;
@@ -25,30 +38,10 @@
 			remoteGlobalIDString = 01D1E8211A24902D005284BE;
 			remoteInfo = EssentialDemo;
 		};
-		01D1E8511A24906F005284BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 012A02661A2474F10054CFA1;
-			remoteInfo = EssentialLib;
-		};
-		01D1E8531A24906F005284BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 012A02711A2474F20054CFA1;
-			remoteInfo = EssentialLibTests;
-		};
-		01D1E8551A24909A005284BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 012A02651A2474F10054CFA1;
-			remoteInfo = EssentialLib;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0124FC701A256F820090F399 /* EssentialLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EssentialLib.xcodeproj; path = EssentialLib/EssentialLib.xcodeproj; sourceTree = "<group>"; };
 		01D1E8221A24902D005284BE /* EssentialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D1E8261A24902D005284BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D1E8271A24902D005284BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +55,6 @@
 		01D1E83B1A249030005284BE /* EssentialDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D1E8401A249030005284BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D1E8411A249030005284BE /* EssentialDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialDemoTests.m; sourceTree = "<group>"; };
-		01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EssentialLib.xcodeproj; path = EssentialLib/EssentialLib.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D1E8571A2490BC005284BE /* libEssentialLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0124FC711A256F820090F399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0124FC771A256F830090F399 /* libEssentialLib.a */,
+				0124FC791A256F830090F399 /* EssentialLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		01D1E8191A24902D005284BE = {
 			isa = PBXGroup;
 			children = (
-				01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */,
+				0124FC701A256F820090F399 /* EssentialLib.xcodeproj */,
 				01D1E8241A24902D005284BE /* EssentialDemo */,
 				01D1E83E1A249030005284BE /* EssentialDemoTests */,
 				01D1E8231A24902D005284BE /* Products */,
@@ -144,15 +144,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01D1E84C1A24906F005284BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01D1E8521A24906F005284BE /* libEssentialLib.a */,
-				01D1E8541A24906F005284BE /* EssentialLibTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,7 +158,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				01D1E8561A24909A005284BE /* PBXTargetDependency */,
 			);
 			name = EssentialDemo;
 			productName = EssentialDemo;
@@ -223,8 +213,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 01D1E84C1A24906F005284BE /* Products */;
-					ProjectRef = 01D1E84B1A24906F005284BE /* EssentialLib.xcodeproj */;
+					ProductGroup = 0124FC711A256F820090F399 /* Products */;
+					ProjectRef = 0124FC701A256F820090F399 /* EssentialLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -236,18 +226,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		01D1E8521A24906F005284BE /* libEssentialLib.a */ = {
+		0124FC771A256F830090F399 /* libEssentialLib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libEssentialLib.a;
-			remoteRef = 01D1E8511A24906F005284BE /* PBXContainerItemProxy */;
+			remoteRef = 0124FC761A256F830090F399 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		01D1E8541A24906F005284BE /* EssentialLibTests.xctest */ = {
+		0124FC791A256F830090F399 /* EssentialLibTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = EssentialLibTests.xctest;
-			remoteRef = 01D1E8531A24906F005284BE /* PBXContainerItemProxy */;
+			remoteRef = 0124FC781A256F830090F399 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -298,11 +288,6 @@
 			isa = PBXTargetDependency;
 			target = 01D1E8211A24902D005284BE /* EssentialDemo */;
 			targetProxy = 01D1E83C1A249030005284BE /* PBXContainerItemProxy */;
-		};
-		01D1E8561A24909A005284BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EssentialLib;
-			targetProxy = 01D1E8551A24909A005284BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/EssentialLib;
 				INFOPLIST_FILE = EssentialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
@@ -419,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/EssentialLib;
 				INFOPLIST_FILE = EssentialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
@@ -479,6 +466,7 @@
 				01D1E8471A249030005284BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01D1E8481A249030005284BE /* Build configuration list for PBXNativeTarget "EssentialDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +475,7 @@
 				01D1E84A1A249030005284BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

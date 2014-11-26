@@ -12,7 +12,7 @@
 @interface Network : NSObject
 
 //------------------------------------------------------------------------------------------
-/**   */
+/** Check network is available  */
 +(BOOL) checkNetwork;
 
 @end

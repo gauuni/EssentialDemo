@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 iOS_Team_CO2. All rights reserved.
 //
 
-#import "DirectoryManager.h"
+#import "FileManager.h"
 
-@implementation DirectoryManager
+@implementation FileManager
 
 #pragma mark -
 #pragma mark Path
@@ -37,16 +37,6 @@ NSString *documentDir = [searchPaths lastObject];
 +(NSString *)getCacheDirectory
 {
 NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-    NSString *ret  = [paths objectAtIndex:0];
-    
-    return  ret;
-}
-
-//------------------------------------------------------------------------------------------
-/**   */
-+(NSString *)getDocumentDirectory
-{
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *ret  = [paths objectAtIndex:0];
     
     return  ret;

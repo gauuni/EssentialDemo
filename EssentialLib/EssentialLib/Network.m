@@ -12,7 +12,7 @@
 
 
 //------------------------------------------------------------------------------------------
-/**   */
+/** Check network is available  */
 +(BOOL) checkNetwork
 {
     Reachability *r = [Reachability reachabilityForInternetConnection];

@@ -21,12 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		012A026A1A2474F20054CFA1 /* EssentialLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 012A02691A2474F20054CFA1 /* EssentialLib.h */; };
-		012A026C1A2474F20054CFA1 /* EssentialLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 012A026B1A2474F20054CFA1 /* EssentialLib.m */; };
+		0124FC881A2571B60090F399 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC841A2571B60090F399 /* Network.m */; };
+		0124FC891A2571B60090F399 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC861A2571B60090F399 /* Reachability.m */; };
+		0124FC8C1A2571DA0090F399 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC8B1A2571DA0090F399 /* FileManager.m */; };
+		0124FC921A25729C0090F399 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC911A25729C0090F399 /* Validator.m */; };
+		0124FC961A2573BD0090F399 /* Ultilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC951A2573BD0090F399 /* Ultilities.m */; };
 		012A02721A2474F20054CFA1 /* libEssentialLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 012A02661A2474F10054CFA1 /* libEssentialLib.a */; };
-		012A02851A2478F70054CFA1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 012A02841A2478F70054CFA1 /* Reachability.m */; };
-		012A02881A24790D0054CFA1 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 012A02871A24790D0054CFA1 /* Network.m */; };
-		01D1E8131A248ABB005284BE /* DirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E8121A248ABB005284BE /* DirectoryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,24 +46,25 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				012A026A1A2474F20054CFA1 /* EssentialLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0124FC831A2571B60090F399 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		0124FC841A2571B60090F399 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		0124FC851A2571B60090F399 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0124FC861A2571B60090F399 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0124FC8A1A2571DA0090F399 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		0124FC8B1A2571DA0090F399 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		0124FC901A25729C0090F399 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		0124FC911A25729C0090F399 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		0124FC941A2573BD0090F399 /* Ultilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ultilities.h; sourceTree = "<group>"; };
+		0124FC951A2573BD0090F399 /* Ultilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ultilities.m; sourceTree = "<group>"; };
 		012A02661A2474F10054CFA1 /* libEssentialLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEssentialLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		012A02691A2474F20054CFA1 /* EssentialLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialLib.h; sourceTree = "<group>"; };
-		012A026B1A2474F20054CFA1 /* EssentialLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialLib.m; sourceTree = "<group>"; };
 		012A02711A2474F20054CFA1 /* EssentialLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012A02771A2474F20054CFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		012A02831A2478F70054CFA1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		012A02841A2478F70054CFA1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		012A02861A24790D0054CFA1 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
-		012A02871A24790D0054CFA1 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
-		01D1E8111A248ABB005284BE /* DirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryManager.h; sourceTree = "<group>"; };
-		01D1E8121A248ABB005284BE /* DirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0124FC8D1A2571ED0090F399 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				0124FC8A1A2571DA0090F399 /* FileManager.h */,
+				0124FC8B1A2571DA0090F399 /* FileManager.m */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
+		0124FC8E1A2571F40090F399 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0124FC831A2571B60090F399 /* Network.h */,
+				0124FC841A2571B60090F399 /* Network.m */,
+				0124FC851A2571B60090F399 /* Reachability.h */,
+				0124FC861A2571B60090F399 /* Reachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		0124FC8F1A2572570090F399 /* ValidateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				0124FC901A25729C0090F399 /* Validator.h */,
+				0124FC911A25729C0090F399 /* Validator.m */,
+			);
+			name = ValidateMethod;
+			sourceTree = "<group>";
+		};
+		0124FC931A2573AE0090F399 /* Ultilities */ = {
+			isa = PBXGroup;
+			children = (
+				0124FC941A2573BD0090F399 /* Ultilities.h */,
+				0124FC951A2573BD0090F399 /* Ultilities.m */,
+			);
+			name = Ultilities;
+			sourceTree = "<group>";
+		};
 		012A025D1A2474F10054CFA1 = {
 			isa = PBXGroup;
 			children = (
@@ -106,9 +145,10 @@
 		012A02681A2474F10054CFA1 /* EssentialLib */ = {
 			isa = PBXGroup;
 			children = (
-				012A02801A24788D0054CFA1 /* Ultilities */,
-				012A02691A2474F20054CFA1 /* EssentialLib.h */,
-				012A026B1A2474F20054CFA1 /* EssentialLib.m */,
+				0124FC931A2573AE0090F399 /* Ultilities */,
+				0124FC8F1A2572570090F399 /* ValidateMethod */,
+				0124FC8D1A2571ED0090F399 /* FileManager */,
+				0124FC8E1A2571F40090F399 /* Network */,
 			);
 			path = EssentialLib;
 			sourceTree = "<group>";
@@ -127,43 +167,6 @@
 				012A02771A2474F20054CFA1 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		012A02801A24788D0054CFA1 /* Ultilities */ = {
-			isa = PBXGroup;
-			children = (
-				01D1E8101A248AAB005284BE /* DirectoryManager */,
-				012A02811A24788D0054CFA1 /* Network */,
-				012A02821A24788D0054CFA1 /* Validate */,
-			);
-			path = Ultilities;
-			sourceTree = "<group>";
-		};
-		012A02811A24788D0054CFA1 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				012A02831A2478F70054CFA1 /* Reachability.h */,
-				012A02841A2478F70054CFA1 /* Reachability.m */,
-				012A02861A24790D0054CFA1 /* Network.h */,
-				012A02871A24790D0054CFA1 /* Network.m */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		012A02821A24788D0054CFA1 /* Validate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Validate;
-			sourceTree = "<group>";
-		};
-		01D1E8101A248AAB005284BE /* DirectoryManager */ = {
-			isa = PBXGroup;
-			children = (
-				01D1E8111A248ABB005284BE /* DirectoryManager.h */,
-				01D1E8121A248ABB005284BE /* DirectoryManager.m */,
-			);
-			path = DirectoryManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,10 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012A02851A2478F70054CFA1 /* Reachability.m in Sources */,
-				01D1E8131A248ABB005284BE /* DirectoryManager.m in Sources */,
-				012A02881A24790D0054CFA1 /* Network.m in Sources */,
-				012A026C1A2474F20054CFA1 /* EssentialLib.m in Sources */,
+				0124FC921A25729C0090F399 /* Validator.m in Sources */,
+				0124FC881A2571B60090F399 /* Network.m in Sources */,
+				0124FC961A2573BD0090F399 /* Ultilities.m in Sources */,
+				0124FC891A2571B60090F399 /* Reachability.m in Sources */,
+				0124FC8C1A2571DA0090F399 /* FileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 				01D1E8171A248E46005284BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
