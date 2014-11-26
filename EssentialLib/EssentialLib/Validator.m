@@ -23,27 +23,11 @@
 /**  Check character has been inserted is a number or not */
 +(BOOL)isNumeric: (NSString *)s
 {
-    NSUInteger len = [s length];
-    NSUInteger i;
-    BOOL status = NO;
-    
-    for(i=0; i < len; i++)
+    if ([s rangeOfCharacterFromSet:[[NSCharacterSet decimalDigitCharacterSet] invertedSet]].location != NSNotFound)
     {
-        unichar singlechar = [s characterAtIndex: i];
-        if ( (singlechar == ' ') && (!status) )
-        {
-            continue;
-        }
-        if ( ( singlechar == '+' ||
-              singlechar == '-' ) && (!status) ) { status=YES; continue; }
-        if ( ( singlechar >= '0' ) &&
-            ( singlechar <= '9' ) )
-        {
-            status = YES;
-        } else {
-            return NO;
-        }
+        // BasicAlert(@"", @"This field accepts only numeric entries.");
+        return NO;
     }
-    return (i == len) && status;
+    return YES;
 }
 @end
