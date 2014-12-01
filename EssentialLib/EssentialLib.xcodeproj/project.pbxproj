@@ -27,6 +27,7 @@
 		0124FC921A25729C0090F399 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC911A25729C0090F399 /* Validator.m */; };
 		0124FC961A2573BD0090F399 /* Ultilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124FC951A2573BD0090F399 /* Ultilities.m */; };
 		012A02721A2474F20054CFA1 /* libEssentialLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 012A02661A2474F10054CFA1 /* libEssentialLib.a */; };
+		012CDDD61A2BF06F00DFB7A5 /* NavSlideAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CDDD51A2BF06F00DFB7A5 /* NavSlideAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		012A02661A2474F10054CFA1 /* libEssentialLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEssentialLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		012A02711A2474F20054CFA1 /* EssentialLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012A02771A2474F20054CFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012CDDD41A2BF06F00DFB7A5 /* NavSlideAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSlideAlertView.h; sourceTree = "<group>"; };
+		012CDDD51A2BF06F00DFB7A5 /* NavSlideAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSlideAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		012A02681A2474F10054CFA1 /* EssentialLib */ = {
 			isa = PBXGroup;
 			children = (
+				012CDDD71A2BF07400DFB7A5 /* NavSlideAlertView */,
 				0124FC931A2573AE0090F399 /* Ultilities */,
 				0124FC8F1A2572570090F399 /* ValidateMethod */,
 				0124FC8D1A2571ED0090F399 /* FileManager */,
@@ -167,6 +171,15 @@
 				012A02771A2474F20054CFA1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		012CDDD71A2BF07400DFB7A5 /* NavSlideAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				012CDDD41A2BF06F00DFB7A5 /* NavSlideAlertView.h */,
+				012CDDD51A2BF06F00DFB7A5 /* NavSlideAlertView.m */,
+			);
+			name = NavSlideAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0124FC921A25729C0090F399 /* Validator.m in Sources */,
+				012CDDD61A2BF06F00DFB7A5 /* NavSlideAlertView.m in Sources */,
 				0124FC881A2571B60090F399 /* Network.m in Sources */,
 				0124FC961A2573BD0090F399 /* Ultilities.m in Sources */,
 				0124FC891A2571B60090F399 /* Reachability.m in Sources */,
