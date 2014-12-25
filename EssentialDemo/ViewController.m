@@ -10,7 +10,7 @@
 
 
 #import "EssentialLib/Network.h"
-
+#import "EssentialLib/Validator.h"
 
 @interface ViewController ()
 
@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [Validator validateEmail:@""];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,4 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+
+}
 @end

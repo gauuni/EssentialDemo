@@ -7,7 +7,7 @@
 //
 
 #import "NavSlideAlertView.h"
-#import "Common.h"
+
 
 
 // TODO: Rebuild this class
@@ -58,12 +58,12 @@ static NavSlideAlertView *navSlideAlertView;
 -(void)setUpAlertViewWithMessage: (NSString *)alertMessage OnView: (UIView *)view AtPosition:(CGFloat)postion
 {
 
-    self.backgroundColor = [Common returnSuccessColor];
+
     if (_alertColor) {
         self.backgroundColor = _alertColor;
     }
     if (_isErrorMessage) {
-        self.backgroundColor = [Common returnErrorColor];
+
     }
     
     CGSize alertMessageSize = CGSizeMake(CGRectGetWidth(view.frame) - 20, CGFLOAT_MAX);

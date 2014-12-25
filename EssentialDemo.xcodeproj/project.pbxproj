@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01292AB91A2EB23300C3FACC /* libEssentialLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0124FC771A256F830090F399 /* libEssentialLib.a */; };
+		01292ABA1A2EB23A00C3FACC /* libEssentialLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0124FC771A256F830090F399 /* libEssentialLib.a */; };
 		01D1E8281A24902D005284BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E8271A24902D005284BE /* main.m */; };
 		01D1E82B1A24902D005284BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E82A1A24902D005284BE /* AppDelegate.m */; };
 		01D1E82E1A24902D005284BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1E82D1A24902D005284BE /* ViewController.m */; };
@@ -30,6 +32,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 012A02711A2474F20054CFA1;
 			remoteInfo = EssentialLibTests;
+		};
+		01292AB71A2EB21D00C3FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0124FC701A256F820090F399 /* EssentialLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 012A02651A2474F10054CFA1;
+			remoteInfo = EssentialLib;
+		};
+		01292ABB1A2EB33300C3FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0124FC701A256F820090F399 /* EssentialLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 012A02651A2474F10054CFA1;
+			remoteInfo = EssentialLib;
 		};
 		01D1E83C1A249030005284BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01292AB91A2EB23300C3FACC /* libEssentialLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01292ABA1A2EB23A00C3FACC /* libEssentialLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +176,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				01292ABC1A2EB33300C3FACC /* PBXTargetDependency */,
 			);
 			name = EssentialDemo;
 			productName = EssentialDemo;
@@ -175,6 +194,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				01292AB81A2EB21D00C3FACC /* PBXTargetDependency */,
 				01D1E83D1A249030005284BE /* PBXTargetDependency */,
 			);
 			name = EssentialDemoTests;
@@ -284,6 +304,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		01292AB81A2EB21D00C3FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EssentialLib;
+			targetProxy = 01292AB71A2EB21D00C3FACC /* PBXContainerItemProxy */;
+		};
+		01292ABC1A2EB33300C3FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EssentialLib;
+			targetProxy = 01292ABB1A2EB33300C3FACC /* PBXContainerItemProxy */;
+		};
 		01D1E83D1A249030005284BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01D1E8211A24902D005284BE /* EssentialDemo */;
@@ -425,6 +455,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/EssentialLib;
 				INFOPLIST_FILE = EssentialDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +471,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/EssentialLib;
 				INFOPLIST_FILE = EssentialDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
